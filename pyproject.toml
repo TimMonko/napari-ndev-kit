@@ -48,6 +48,8 @@ dependencies = [
     "matplotlib-scalebar>=0.8.1",
     "ndev-themes",
     "ndev-workflows",
+    "ndev-settings>=0.4.2",  # imported here; ndevio stopped depending on it in 0.10.0
+    "pandas>=2.1",  # Styler.map
 ]
 dynamic = ["version"]
 

@@ -9,7 +9,7 @@ For programmatic use, the following modules are available:
 
 For I/O utilities and helpers, use ndevio:
     from ndevio import helpers
-    from ndevio.widgets import UtilitiesContainer
+    from ndevio.widgets._utilities_container import UtilitiesContainer
 
 Settings are managed by the ndev-settings package:
     from ndev_settings import get_settings
